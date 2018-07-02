@@ -19,11 +19,7 @@ public class Deck {
                             value = 11;
                             break;
                         case 11:
-                            value = 10;
-                            break;
                         case 12:
-                            value = 10;
-                            break;
                         case 13:
                             value = 10;
                             break;
