@@ -4,7 +4,6 @@ import java.text.NumberFormat;
 import java.util.Locale;
 import java.util.Scanner;
 
-import Objects.Card;
 import Objects.Dealer;
 import Objects.Deck;
 import Objects.Player;
