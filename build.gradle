@@ -1,2 +1,33 @@
-apply plugin: 'idea'
-apply plugin: 'java'
+plugins {
+    id 'java'
+    id 'application'
+    id 'idea'
+}
+
+version '1.0'
+
+mainClassName = 'UI.BlackjackApp'
+
+sourceSets.main.java.srcDirs = ['src']
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+jar {
+    manifest {
+        attributes (
+                'Class-Path': configurations.compile.collect {it.getName() }.join(' '),
+                'Main-Class': 'UI.BlackjackApp',
+                'Implementation-Title': 'Gradle',
+                'Implementation-Version': version
+        )
+    }
+}
+
+uploadArchives {
+    repositories {
+        flatDir {
+            dirs 'repos'
+        }
+    }
+}
