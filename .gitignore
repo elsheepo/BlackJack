@@ -25,3 +25,5 @@ hs_err_pid*
 # idea files
 *.xml
 *.iml
+*.ipr
+*.iws
