@@ -13,7 +13,9 @@ In order to run the program, Java SE Runtime Environment 8 or higher must be ins
 - Need help installing Java? Read [this document](https://www.java.com/en/download/help/download_options.xml "Java Installation Instructions") for installation instructions.
 
 ### :open_file_folder: Downloads
-To download the executable binaries, please visit [my homepage](https://beatzz.co "beatzz.co") and check under the **Projects** navigation link.
+- Windows executable binary: [blackjack-1.0.rar](https://beatzz.co/downloads/java/blackjack/blackjack-1.0.rar "blackjack-1.0.rar")
+
+- Linux executable jar: [blackjack-1.0.tar.bz2](https://beatzz.co/downloads/java/blackjack/blackjack-1.0.tar.bz2 "blackjack-1.0.tar.bz2")
 
 ### :computer: Execution
 
