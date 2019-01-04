@@ -28,3 +28,7 @@ In order to run the program, Java SE Runtime Environment 8 or higher must be ins
 ### :key: Licence
 
 This software is licenced under the [GPLv3.0](./LICENCE "LICENCE").
+
+### :email: Contact
+
+You can contact me directly via the **Contact** form located on [my homepage](https://beatzz.co "beatzz.co")!
